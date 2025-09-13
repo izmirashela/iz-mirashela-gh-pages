@@ -1,0 +1,22 @@
+<ul class="hmenu">
+  {% for link in site.data.links %}
+    {% if link.submenu  %}
+      <li><a href="{{ site.url }}/#">{{ link.alt }}&thinsp;&#9654;</a>
+         <ul>
+          {% for sublink in link.submenu %}
+            <li><a href="{{ site.url }}/{{ sublink.url }}.html">{{ sublink.alt }}</a></li>
+          {% endfor %}
+          </ul>
+        </li>    
+        {% else %}  
+        <li {% if page.menu == '{{ site.url }}/{{ link.alt }}' %} class='active' {% endif %} >
+          <a href="{{ site.url }}/{{ link.url }}.html">
+            {% if link.img  %}<img src="{{ site.url }}/assets/images/{{link.img}}" alt="US Flag" width="16"/>{% endif %}
+            {{ link.alt }}
+          </a>
+        </li>     
+    {% endif %}
+
+  {% endfor %}
+</ul>   
+

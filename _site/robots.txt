@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /*Unused
+Disallow: /*Include.php
+Host: www.keeshond.ws
+Crawl-delay: 3
+Sitemap: http://www.keeshond.ws/sitemap.txt

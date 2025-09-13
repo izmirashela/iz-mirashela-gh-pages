@@ -1,0 +1,65 @@
+- url: index
+  alt: Главная
+  alt-en: Main
+
+  
+- url: news
+  alt: Новости
+  alt-en: News
+  
+- url: #
+  alt: Щенки
+  alt-en: Puppies
+
+  submenu:
+  - alt: Щенки на продажу 
+    url: puppiestosell
+    alt-en: Puppies for sale
+
+  - alt: Пометы питомника
+    url: litters
+    alt-en: Kennel litters
+
+
+- url: #
+  alt: Наши собаки
+  alt-en: Our dogs
+
+  submenu:
+  - alt: Кобели
+    url: males
+    alt-en: Males
+
+  - alt: Суки
+    url: females
+    alt-en: Females
+
+- url: articles
+  alt: Статьи
+  alt-en: Articles
+
+- url: #
+  alt: О нас
+  alt-en: About us
+  submenu:
+  - alt: История питомника
+    url: history
+    alt-en: Kennel history
+
+  - alt: Достижения питомника
+    url: titles
+    alt-en: Kennel achivements
+
+  - alt: Наши друзья
+    url: links
+    alt-en: Our friends
+
+
+- url: contacts
+  alt: Контакты
+  alt-en: Contacts
+  
+- url: eng
+  alt: English
+  img: flag_rus.png
+  alt-en: Russian

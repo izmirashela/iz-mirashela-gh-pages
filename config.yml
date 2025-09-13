@@ -1,0 +1,7 @@
+tunnel: bef50280-4f3a-4c5e-a590-e30be8689419
+credentials-file: C:\Users\nikit\.cloudflared\bef50280-4f3a-4c5e-a590-e30be8689419.json
+
+ingress:
+  - hostname: кеесхонд.рф
+    service: http://localhost:4000
+  - service: http_status:404
